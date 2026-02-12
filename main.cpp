@@ -23,6 +23,28 @@ static void clearBadInput() {
     cin.ignore(numeric_limits<streamsize>::max(), '\n');
 }
 
+
+void searchAppliance(const vector<Appliance>& appliances) {
+    string searchName;
+    cout << "\nEnter the name of the appliance to search for: ";
+    cin.ignore(); // Clears the input buffer
+    getline(cin, searchName);
+
+    bool found = false;
+    for (const auto& item : appliances) {
+        if (item.name == searchName) {
+            cout << "Appliance Found!" << endl;
+            cout << "Name: " << item.name << " | Power: " << item.powerW << "W" << endl;
+            found = true;
+            break; 
+        }
+    }
+
+    if (!found) {
+        cout << "Appliance not found in the database." << endl;
+    }
+}
+
 static string toLowerStr(string s) {
     transform(s.begin(), s.end(), s.begin(),
               [](unsigned char c) { return static_cast<char>(tolower(c)); });
