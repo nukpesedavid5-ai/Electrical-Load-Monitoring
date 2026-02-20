@@ -1,0 +1,10 @@
+=== ELECTRICAL BILLING SUMMARY ===
+iron           : $0.27/month
+bulb           : $0.72/month
+fridge         : $3.78/month
+Ac             : $1.44/month
+fan            : $0.32/month
+socket         : $0.54/month
+water_pump     : $0.90/month
+----------------------------------
+TOTAL ESTIMATED MONTHLY BILL: $7.97
