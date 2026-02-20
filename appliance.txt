@@ -5,3 +5,5 @@ Ac 40 8
 fan 3 24
 socket 5 24
 water_pump 25 8
+Air fryer 20 1
+microwave  25 1
