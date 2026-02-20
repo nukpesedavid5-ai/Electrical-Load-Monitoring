@@ -165,26 +165,27 @@ int main() {
                 break;
             }
             case 5: {
-                // Reads directly from the file to ensure the bill is accurate
-                ifstream inputFile("appliance.txt");
-                ofstream outputFile("billing_summary.txt");
-                string appName; double watts, hours;
-                double totalMonthlyCost = 0;
+    if (appliances.empty()) {
+        cout << "No appliances to bill.\n";
+    } else {
+        ofstream outputFile("billing_summary.txt");
+        double totalMonthlyCost = 0;
 
-                if (inputFile.is_open() && outputFile.is_open()) {
-                    outputFile << "=== ELECTRICAL BILLING SUMMARY ===\n";
-                    while (inputFile >> appName >> watts >> hours) {
-                        double monthlyCost = (watts * hours / 1000.0) * 30 * tariff;
-                        totalMonthlyCost += monthlyCost;
-                        outputFile << left << setw(15) << appName << ": $" 
-                                   << fixed << setprecision(2) << monthlyCost << "/month\n";
-                    }
-                    outputFile << "----------------------------------\n";
-                    outputFile << "TOTAL ESTIMATED MONTHLY BILL: $" << totalMonthlyCost << "\n";
-                    inputFile.close(); outputFile.close();
-                    cout << "Summary saved to billing_summary.txt\n";
-                }
-                break;
+        if (outputFile.is_open()) {
+            outputFile << "=== ELECTRICAL BILLING SUMMARY ===\n";
+            for (const auto& app : appliances) {
+                double monthlyCost = (app.powerW * app.hoursPerDay / 1000.0) * 30 * tariff;
+                totalMonthlyCost += monthlyCost;
+                outputFile << left << setw(15) << app.name << ": $" 
+                           << fixed << setprecision(2) << monthlyCost << "/month\n";
+            }
+            outputFile << "----------------------------------\n";
+            outputFile << "TOTAL ESTIMATED MONTHLY BILL: $" << totalMonthlyCost << "\n";
+            outputFile.close();
+            cout << "Billing summary updated!\n";
+        }
+    }
+    break;
             }
             case 6: {
                 // --- FIX 2: SYNC DELETION ---
