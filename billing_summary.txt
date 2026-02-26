@@ -7,6 +7,7 @@ fan            : $0.32/month
 socket         : $0.54/month
 water_pump     : $0.90/month
 microwave      : $0.11/month
-blender        : $0.04/month
+Meat mixers    : $0.04/month
+juicers        : $0.04/month
 ----------------------------------
-TOTAL ESTIMATED MONTHLY BILL: $8.13
+TOTAL ESTIMATED MONTHLY BILL: $8.18

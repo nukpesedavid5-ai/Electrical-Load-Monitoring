@@ -11,3 +11,5 @@ microwave 25 1
 air fryer 15 2
 kettel 20 2
 blender 10 1
+Meat mixers 10 1
+juicers 5 2
