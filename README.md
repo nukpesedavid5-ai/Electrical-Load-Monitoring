@@ -23,3 +23,16 @@ A C++ application that calculates daily energy consumption and generates a month
 1. Add appliances to `appliance.txt` (Format: Name Watts Hours).
 2. Note: Use underscores for multi-word names (e.g., Water_pump).
 3. Run the program and select **Option 5** to generate `billing_summary.txt`.
+
+
+##  How to Run the Simulator
+
+1. **Prerequisites**: Ensure you have a C++ compiler (like MinGW) installed.
+2. **Compilation**: Open your terminal in this folder and run:
+   `g++ main.cpp -o LoadMonitor`
+3. **Execution**: Run the program by typing:
+   `./LoadMonitor`
+4. **Data Persistence**: 
+   - Appliance data is automatically saved to `appliance.txt`.
+   - The billing report is generated in `billing_summary.txt`.
+   - The electricity tariff is saved in `config.txt`.
