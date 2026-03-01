@@ -9,3 +9,4 @@ microwave 25 1
 Meat mixers 10 1
 juicers 5 2
 blender 500 2
+Laptop 200 4

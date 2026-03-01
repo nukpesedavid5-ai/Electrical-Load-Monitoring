@@ -9,5 +9,6 @@ fan            : $0.32
 socket         : $0.54
 water_pump     : $0.90
 microwave      : $0.11
+Laptop         : $3.60
 
-TOTAL ESTIMATED MONTHLY BILL: $8.09
+TOTAL ESTIMATED MONTHLY BILL: $11.69
