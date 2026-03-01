@@ -1,12 +1,13 @@
-=== ELECTRICAL BILLING SUMMARY ===
-iron           : $0.27/month
-bulb           : $0.72/month
-fridge         : $3.78/month
-Ac             : $1.44/month
-fan            : $0.32/month
-socket         : $0.54/month
-water_pump     : $0.90/month
-microwave      : $0.11/month
-blender        : $4.50/month
-----------------------------------
-TOTAL ESTIMATED MONTHLY BILL: $12.59
+=== OFFICIAL BILLING REPORT ===
+Tariff Rate: $0.15/kWh
+
+iron           : $0.27
+bulb           : $0.72
+fridge         : $3.78
+Ac             : $1.44
+fan            : $0.32
+socket         : $0.54
+water_pump     : $0.90
+microwave      : $0.11
+
+TOTAL ESTIMATED MONTHLY BILL: $8.09
