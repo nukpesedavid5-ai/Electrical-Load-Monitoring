@@ -1,0 +1,9 @@
+# Ignore all executable files
+*.exe
+
+# Ignore temporary files
+temp.txt
+billing_summary.txt
+
+# Ignore VS Code configuration folders
+.vscode/
