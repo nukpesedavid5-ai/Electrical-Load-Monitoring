@@ -6,7 +6,3 @@ fan 3 24
 socket 5 24
 water_pump 25 8
 microwave 25 1
-Meat mixers 10 1
-juicers 5 2
-blender 500 2
-Laptop 200 4
