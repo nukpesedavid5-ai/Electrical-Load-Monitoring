@@ -9,6 +9,5 @@ fan            : $0.32
 socket         : $0.54
 water_pump     : $0.90
 microwave      : $0.11
-ricecooker     : $1.80
 
-TOTAL ESTIMATED MONTHLY BILL: $9.89
+TOTAL ESTIMATED MONTHLY BILL: $8.09
