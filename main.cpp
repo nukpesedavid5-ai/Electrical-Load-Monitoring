@@ -128,7 +128,7 @@ int main() {
                 appliances.push_back(a);
                 ofstream outFile("appliance.txt", ios::app);
                 outFile << a.name << " " << a.powerW << " " << a.hoursPerDay << endl;
-                cout << "Appliance logged successfully.\n";
+                cout << "Appliance registered successfully.\n";
                 break;
             }
             case 2: { // View All

@@ -1,0 +1,8 @@
+=== OFFICIAL BILLING REPORT ===
+Tariff Rate: $3/kWh
+
+ricecooker     : $45.00
+microwave      : $81.00
+Fridge         : $540.00
+
+TOTAL ESTIMATED MONTHLY BILL: $666.00
