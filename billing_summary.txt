@@ -1,6 +1,0 @@
-=== OFFICIAL BILLING REPORT ===
-Tariff Rate: $0.15/kWh
-
-ricecooker     : $1.80
-
-TOTAL ESTIMATED MONTHLY BILL: $1.80
