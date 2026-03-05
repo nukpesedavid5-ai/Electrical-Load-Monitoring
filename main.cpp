@@ -87,7 +87,7 @@ void searchAppliance(const vector<Appliance>& apps) {
             found = true;
         }
     }
-    if (!found) cout << "No matches found.\n";
+    if (!found) cout << "no appliance found.\n";
 }
 
 int main() {
@@ -117,12 +117,12 @@ int main() {
                 while (true) {
                     cout << "Power (Watts > 0): ";
                     if (cin >> a.powerW && a.powerW > 0) break;
-                    cout << "Error: Power must be positive.\n"; clearBadInput();
+                    cout << "Error: Power must be positive Enter again.\n"; clearBadInput();
                 }
                 while (true) {
                     cout << "Daily Hours (0-24): ";
                     if (cin >> a.hoursPerDay && a.hoursPerDay >= 0 && a.hoursPerDay <= 24) break;
-                    cout << "Error: Hours must be 0-24.\n"; clearBadInput();
+                    cout << "Error: Hours must be 0-24 Enter again.\n"; clearBadInput();
                 }
 
                 appliances.push_back(a);
@@ -186,8 +186,8 @@ int main() {
                     for (auto it = appliances.begin(); it != appliances.end(); ++it) {
                         if (it->name == dName) { appliances.erase(it); break; }
                     }
-                    cout << "Deleted.\n";
-                } else cout << "Not found.\n";
+                    cout << "Deleted successfully.\n";
+                } else cout << "Appliance not found.\n";
                 break;
             }
             case 7: { // Update Tariff
