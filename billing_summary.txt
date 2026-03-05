@@ -2,6 +2,5 @@
 Tariff Rate: $0.15/kWh
 
 ricecooker     : $1.80
-microwave      : $1.12
 
-TOTAL ESTIMATED MONTHLY BILL: $2.92
+TOTAL ESTIMATED MONTHLY BILL: $1.80
